@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 10vmin;
+    font-family: "Sansita Swashed", system-ui;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body{
+    background-color: #71A9F7;
+    text-align: center;
+}
+
+.container{
+    height: 70vph;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    padding: 0.75rem;
+}
+
+.box{
+    height: 18vmin; 
+    width: 18vmin;
+    background-color:#6B5CA5;
+    border-radius: 1rem;
+    border-color: #C6D8FF;
+    border-width: 5px;
+    font-size: 8vmin;
+    font-family: "Skranji", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color:#4C1036;
+}
+
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.reset{
+    margin-top: 30px;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    background-color: #72195A;
+    border-radius: 1rem;
+    color: white;
+    font-family: "Gamja Flower", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.msg{
+    color:#72195A;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.new-game{
+    margin-top: 30px;
+    margin-left: 10px;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    background-color:#72195A;
+    border-radius: 1rem;
+    color: white;
+    font-family: "Gamja Flower", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hide{
+    display: none;
+}
